@@ -1,5 +1,5 @@
 {% set name = "galsim_extra" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/esheldon/galsim_extra/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 952ef25e9aa05719f326385c33dc20374709c11d4659337fb8d6fe3793fb0974
+  sha256: 60a2d844f3a13cbdef336c57efe8dcf88ffea3846ce6696aaa846b68806b07b0
 
 build:
   noarch: python
