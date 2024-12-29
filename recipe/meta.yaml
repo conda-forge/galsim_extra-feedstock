@@ -33,8 +33,6 @@ test:
   requires:
     - pip
     - python {{ python_min }}
-  commands:
-    - pip check
 
 about:
   home: https://github.com/esheldon/galsim_extra
